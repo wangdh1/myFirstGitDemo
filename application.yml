@@ -27,8 +27,8 @@ zuul:
       path: /business/**
       serviceId: business
     service: 
-      path: /sidecar/**
-      serviceId: sidecar
+      path: /spring/**
+      serviceId: spring
     
 #eureka.instance.statusPageUrlPath: /admin/info
 #eureka.instance.healthCheckUrlPath: /admin/health
