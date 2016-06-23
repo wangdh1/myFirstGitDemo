@@ -20,10 +20,10 @@ server:
   tomcat:
     compression: on
     
-zuul:
+zuul: 
   ignoredServices: "*"
-  routes:
-    service:
+  routes: 
+    service: 
       path: /sidecar/**
       serviceId: sidecar
     service:
