@@ -23,10 +23,10 @@ server:
 zuul: 
   ignoredServices: "*"
   routes: 
-    service:
+    servicea:
       path: /business/**
       serviceId: business
-    service: 
+    serviceb: 
       path: /spring/**
       serviceId: spring
     
